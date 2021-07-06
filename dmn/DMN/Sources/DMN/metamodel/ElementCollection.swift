@@ -8,7 +8,9 @@
 import Foundation
 
 class ElementCollection : NamedElement {
+    var drgElement : [DRGElement]?;
+
     override init(newName: String) throws {
         try super.init(newName:newName);
-    }
+    }    
 }

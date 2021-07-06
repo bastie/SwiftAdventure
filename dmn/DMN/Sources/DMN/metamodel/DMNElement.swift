@@ -35,8 +35,11 @@ class DMNElement {
   /**
    This attribute is used to attach named extended attributes and model associations. This association is not applicable when the XML schema interchange is used, since the XSD mechanism for supporting "anyAttribute" from other namespaces already satisfies this requirement.
    */
-  var extensionAttrutes:[ExtensionAttribute] = [];
+  var extensionAttrutes : [ExtensionAttribute] = [];
   /// This attribute is used as a container to attach additional elements to any DMN Element.
-  var extensionElements:[ExtensionElements] = [];
+  var extensionElements : [ExtensionElements] = [];
     
+  
+  var outgoingRefs : [AssociationDirection] = [];
+  var incomingRefs : [AssociationDirection] = [];
 }

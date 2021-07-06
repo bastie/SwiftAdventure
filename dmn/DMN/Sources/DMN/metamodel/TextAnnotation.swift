@@ -9,4 +9,7 @@ import Foundation
 
 class TextAnnotation : Artifact {
     
+    var text : String = "";
+    var textFormat : String = "text/plain";
+    
 }
