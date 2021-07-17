@@ -8,6 +8,9 @@
 import Foundation
 
 class PerformanceIndicator : BusinessContextElement {
+    
+    var impactedDecision : [Decision] = [];
+    
     override init(newName: String) throws {
         try super.init(newName:newName);
     }

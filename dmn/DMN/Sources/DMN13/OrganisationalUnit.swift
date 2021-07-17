@@ -8,6 +8,10 @@
 import Foundation
 
 class OrganisationalUnit : BusinessContextElement {
+    
+    var decisionOwned : [Decision] = [];
+    var decisionMade : [Decision] = [];
+    
     override init(newName: String) throws {
         try super.init(newName:newName);
     }

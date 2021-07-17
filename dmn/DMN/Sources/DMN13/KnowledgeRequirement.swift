@@ -1,0 +1,13 @@
+//
+//  File.swift
+//  
+//
+//  Created by Sͬeͥbͭaͭsͤtͬian on 15.07.21.
+//
+
+import Foundation
+
+class KnowledgeRequirement : DMNElement{
+    
+    var decision : Decision?;
+}

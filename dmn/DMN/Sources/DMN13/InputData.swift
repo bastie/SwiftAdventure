@@ -8,6 +8,9 @@
 import Foundation
 
 class InputData : DRGElement {
+    
+    var variable : InformationItem?;
+    
     override init(newName: String) throws {
         try super.init(newName:newName);
     }

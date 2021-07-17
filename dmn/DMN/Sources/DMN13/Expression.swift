@@ -9,4 +9,6 @@ import Foundation
 
 class Expression : DMNElement {
     
+    var type : ItemDefinition?;
+    var decision : Decision?;
 }
