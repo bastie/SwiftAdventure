@@ -7,8 +7,14 @@
 
 import Foundation
 
+/**
+ PerformanceIndicator inherits all the attributes and model associations from BusinessContextElement.
+ */
 class PerformanceIndicator : BusinessContextElement {
     
+    /**
+     This attribute lists the instances of Decisions that impact this PerformanceIndicator
+     */
     var impactedDecision : [Decision] = [];
     
     override init(newName: String) throws {
